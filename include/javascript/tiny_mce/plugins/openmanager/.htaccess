@@ -1,0 +1,1 @@
+RedirectMatch include/javascript/tiny_mce/plugins/openmanager/(.*) /openmanager/$1
