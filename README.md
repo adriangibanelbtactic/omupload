@@ -7,6 +7,7 @@ omupload is a plugin designed for SuiteCRM that permits to upload images on:
 * Email templates
 * PDF templates
 * Email quick reply
+
 The plugin stores the images that users upload into `newsletter_images` directory. Each user have a subdirectory using his account ID as folder name and his images are stored here.
 
 ## Install the last release
