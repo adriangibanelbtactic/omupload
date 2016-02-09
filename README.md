@@ -26,3 +26,12 @@ $ git clone https://github.com/btactic/omupload.git
 $ ./release.sh
 ```
 Finally go to your SuiteCRM installation and install omupload.zip via Module Loader.
+
+## Requirements
+This plugin requieres `php5-gd` to work properly. If the installation of apache server where your SuiteCRM installation runs does not have configurated support for `php5-gd` you have to install with:
+```
+# apt-get update
+# apt-get install php5-gd
+# php5enmod gd
+# service apache2 reload
+```
